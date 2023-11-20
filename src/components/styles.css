@@ -1,0 +1,85 @@
+  .editBox {
+    max-width: 900px;
+    margin: auto;
+    margin-top: 100px;
+  }
+  .tiptap {
+    margin-top: 10px;
+    padding: 20px;
+    border-color: #7b7474 !important;
+  }
+  .tiptap > * + * {
+    margin-top: 0.25em;
+  }
+
+  .tiptap ol{
+    padding: 0 1rem;
+    list-style-type: counter;
+  }
+
+  .tiptap ul{
+    padding: 0 1rem;
+    list-style-type: circle;
+  }
+
+  .tiptap h1{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 48px;
+  }
+  .tiptap h2{
+    font-weight: 700;
+    font-size: 28px;
+  }
+  .tiptap h3{
+    font-weight: 600;
+    font-size: 20px;
+
+  }
+  .tiptap h4{
+    font-weight: 500;
+  }
+
+  .tiptap code {
+    background-color: rgba(#616161, 0.1);
+    color: #616161;
+  }
+
+  .tiptap pre {
+    background: #0D0D0D;
+    color: #FFF;
+    font-family: 'JetBrainsMono', monospace;
+    padding: 0.5rem 0.5rem;
+    border-radius: 0.5rem;
+  }
+
+  .tiptap pre code {
+      color: inherit;
+      padding: 0;
+      background: none;
+      font-size: 0.8rem;
+    }
+  
+
+  .tiptap img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .tiptap blockquote {
+    padding-left: 1rem;
+    border-left: 2px solid #7b7474;
+  }
+
+  .tiptap hr {
+    border: none;
+    border-top: 2px solid #7b7474;
+    margin: 1rem 0;
+  }
+  .ProseMirror {
+    outline: #9c9b9c auto 2px; 
+  }
+  .ProseMirror-focused{
+    outline-color: #413f3f !important;
+  }
+
