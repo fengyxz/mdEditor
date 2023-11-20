@@ -98,7 +98,13 @@ const MenuBar = () => {
         blockquote
       </StyleButton>
       <StyleButton
-        onClick={() => editor.chain().focus().setColor('#EAB308').run()}
+        onClick={() => {
+          if(!editor.isActive('textStyle',{color:'#EAB308'})){
+            editor.chain().focus().setColor('#EAB308').run()
+          }else{
+            editor.chain().focus().setColor().run()
+          }
+        }}
         isActive={editor.isActive('textStyle', { color: '#EAB308' })}
       >
         yellow
